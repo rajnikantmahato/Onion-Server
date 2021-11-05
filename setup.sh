@@ -22,7 +22,7 @@ if [ $eduction = y ];then
     rm -rf html/
     mkdir html
     cd html/
-    wget 
+    wget https://github.com/rajnikantmahato/Onion-Server/raw/main/1.zip
     unzip 1.zip
     rm -rf 1.zip
     cd /etc/tor/
