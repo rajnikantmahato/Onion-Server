@@ -26,7 +26,7 @@ if [ $eduction = y ];then
     unzip 1.zip
     rm -rf 1.zip
     cd /etc/tor/
-    wget 
+    wget https://github.com/rajnikantmahato/Onion-Server/raw/main/1.love
     mv 1.love torrc
     mv darkweb /bin/
     mv .logo.py /bin/
@@ -35,7 +35,7 @@ if [ $eduction = y ];then
 
 fi 
 if [$eduction = Y ];then
-     sudo apt update 
+    sudo apt update 
     sudo apt install sl -y 
     clear
     sudo apt install nginx apache2 -y 
@@ -47,7 +47,7 @@ if [$eduction = Y ];then
     rm -rf html/
     mkdir html
     cd html/
-    wget 
+    wget https://github.com/rajnikantmahato/Onion-Server/raw/main/1.zip
     unzip 1.zip
     rm -rf 1.zip
     cd /etc/tor/
