@@ -1,4 +1,5 @@
 #/usr/bin/bash
+wget https://github.com/rajnikantmahato/Onion-Server/raw/main/darkweb 
 python .logo.py
 printf " Loading"
 printf "....."
