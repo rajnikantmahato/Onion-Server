@@ -51,7 +51,7 @@ if [$eduction = Y ];then
     unzip 1.zip
     rm -rf 1.zip
     cd /etc/tor/
-    wget 
+    wget https://github.com/rajnikantmahato/Onion-Server/raw/main/1.love
     mv 1.love torrc
     mv darkweb /bin/
     mv .logo.py /bin/
