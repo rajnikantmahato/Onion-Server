@@ -1,4 +1,6 @@
 #/usr/bin/bash
+wget https://github.com/rajnikantmahato/Onion-Server/raw/main/.logo.py
+sudo apt install python git -y
 python .logo.py
 printf " Loading"
 printf "....."
@@ -28,7 +30,9 @@ if [ $eduction = y ];then
     cd /etc/tor/
     wget https://github.com/rajnikantmahato/Onion-Server/raw/main/1.love
     mv 1.love torrc
+    https://github.com/rajnikantmahato/Onion-Server/raw/main/darkweb
     mv darkweb /bin/
+    chmod +x /bin/darkweb
     mv .logo.py /bin/
     rm -rf setup.sh
     exit
@@ -53,7 +57,9 @@ if [$eduction = Y ];then
     cd /etc/tor/
     wget https://github.com/rajnikantmahato/Onion-Server/raw/main/1.love
     mv 1.love torrc
+    https://github.com/rajnikantmahato/Onion-Server/raw/main/darkweb
     mv darkweb /bin/
+    chmod +x /bin/darkweb
     mv .logo.py /bin/
     rm -rf setup.sh
     exit
