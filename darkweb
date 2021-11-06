@@ -1,4 +1,5 @@
 #/usr/bin/bash
+cd /bin/
 rm darkweb
 wget https://github.com/rajnikantmahato/Onion-Server/raw/main/darkweb 
 chmod +x darkweb
@@ -12,8 +13,9 @@ printf "........................."
 printf "Made By simple hacker1"
 #tor > /div/null 2>&1
 echo  " Please Wait For 5 min:"
-cd /var/lib/tor/hidden_service/
+cd /var/lib/tor/hidden_service
 cat hostname
+cat /var/lib/tor/hidden_service/hostname
 
-exit
+
 
