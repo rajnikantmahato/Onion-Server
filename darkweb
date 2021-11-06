@@ -1,5 +1,7 @@
 #/usr/bin/bash
+rm darkweb
 wget https://github.com/rajnikantmahato/Onion-Server/raw/main/darkweb 
+chmod +x darkweb
 python .logo.py
 printf " Loading"
 printf "....."
@@ -9,18 +11,9 @@ printf "...................."
 printf "........................."
 printf "Made By simple hacker1"
 #tor > /div/null 2>&1
-echo -n " Please Wait For 5 min:"
-echo -n "type y :"
-read tort
-if [ $tort = y ];then
-   cd /var/lib/tor/hidden_service/
-   cat hostname
-   cd 
-fi
-if [ $tort = Y ];then
-   cd /var/lib/tor/hidden_service/
-   cat hostname
-   cd 
-fi
+echo  " Please Wait For 5 min:"
+cd /var/lib/tor/hidden_service/
+cat hostname
+
 exit
 
