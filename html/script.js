@@ -1,6 +1,6 @@
 // PS! Replace this with your own channel ID
 // If you use this channel ID your app will stop working in the future
-const CLIENT_ID = 'WwGr1shVeWMIWj4m';
+const CLIENT_ID = 'YON9z583J6Mu97J5';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
@@ -17,7 +17,7 @@ drone.on('open', error => {
   }
   console.log('Successfully connected to Scaledrone');
 
-  const room = drone.subscribe('observable-room');
+  const room = drone.subscribe('SmsBomBer-Room');
   room.on('open', error => {
     if (error) {
       return console.error(error);
